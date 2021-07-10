@@ -8,7 +8,7 @@
 import Foundation
 import VSCCommon
 
-class TestService {
+public class TestService {
     func test() {
         print("Test success")
     }
