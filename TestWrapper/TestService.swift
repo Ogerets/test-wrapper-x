@@ -9,7 +9,10 @@ import Foundation
 import VSCCommon
 
 public class TestService {
-    func test() {
+
+    public init() { }
+
+    public func test() {
         print("Test success")
     }
 }
