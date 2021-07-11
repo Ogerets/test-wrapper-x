@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9736A203269B056A00148A72 /* VSCCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9736A1FE269B056500148A72 /* VSCCommon.xcframework */; };
+		9736A204269B056A00148A72 /* VSCCommon.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9736A1FE269B056500148A72 /* VSCCommon.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9736A206269B056B00148A72 /* VSCFoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9736A1FC269B056300148A72 /* VSCFoundation.xcframework */; };
+		9736A207269B056B00148A72 /* VSCFoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9736A1FC269B056300148A72 /* VSCFoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9736A208269B056C00148A72 /* VSCPythia.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9736A1FD269B056400148A72 /* VSCPythia.xcframework */; };
+		9736A209269B056C00148A72 /* VSCPythia.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9736A1FD269B056400148A72 /* VSCPythia.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9736A20A269B056D00148A72 /* VSCRatchet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9736A1FB269B055E00148A72 /* VSCRatchet.xcframework */; };
+		9736A20B269B056D00148A72 /* VSCRatchet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9736A1FB269B055E00148A72 /* VSCRatchet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9755768D269A0B4B00938915 /* TestWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9755768B269A0B4B00938915 /* TestWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97557698269A0CCF00938915 /* VSCFoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97557694269A0CCF00938915 /* VSCFoundation.xcframework */; };
-		97557699269A0CCF00938915 /* VSCFoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97557694269A0CCF00938915 /* VSCFoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9755769A269A0CCF00938915 /* VSCPythia.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97557695269A0CCF00938915 /* VSCPythia.xcframework */; };
-		9755769B269A0CCF00938915 /* VSCPythia.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97557695269A0CCF00938915 /* VSCPythia.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9755769C269A0CCF00938915 /* VSCRatchet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97557696269A0CCF00938915 /* VSCRatchet.xcframework */; };
-		9755769D269A0CCF00938915 /* VSCRatchet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97557696269A0CCF00938915 /* VSCRatchet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9755769E269A0CCF00938915 /* VSCCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97557697269A0CCF00938915 /* VSCCommon.xcframework */; };
-		9755769F269A0CCF00938915 /* VSCCommon.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97557697269A0CCF00938915 /* VSCCommon.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		975576A2269A0CF600938915 /* TestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975576A1269A0CF600938915 /* TestService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		975576A0269A0CCF00938915 /* Embed Frameworks */ = {
+		9736A205269B056A00148A72 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				97557699269A0CCF00938915 /* VSCFoundation.xcframework in Embed Frameworks */,
-				9755769F269A0CCF00938915 /* VSCCommon.xcframework in Embed Frameworks */,
-				9755769D269A0CCF00938915 /* VSCRatchet.xcframework in Embed Frameworks */,
-				9755769B269A0CCF00938915 /* VSCPythia.xcframework in Embed Frameworks */,
+				9736A20B269B056D00148A72 /* VSCRatchet.xcframework in Embed Frameworks */,
+				9736A204269B056A00148A72 /* VSCCommon.xcframework in Embed Frameworks */,
+				9736A207269B056B00148A72 /* VSCFoundation.xcframework in Embed Frameworks */,
+				9736A209269B056C00148A72 /* VSCPythia.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -37,6 +37,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9736A1FB269B055E00148A72 /* VSCRatchet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = VSCRatchet.xcframework; sourceTree = "<group>"; };
+		9736A1FC269B056300148A72 /* VSCFoundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = VSCFoundation.xcframework; sourceTree = "<group>"; };
+		9736A1FD269B056400148A72 /* VSCPythia.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = VSCPythia.xcframework; sourceTree = "<group>"; };
+		9736A1FE269B056500148A72 /* VSCCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = VSCCommon.xcframework; sourceTree = "<group>"; };
 		97557688269A0B4B00938915 /* TestWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9755768B269A0B4B00938915 /* TestWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestWrapper.h; sourceTree = "<group>"; };
 		9755768C269A0B4B00938915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,10 +56,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97557698269A0CCF00938915 /* VSCFoundation.xcframework in Frameworks */,
-				9755769E269A0CCF00938915 /* VSCCommon.xcframework in Frameworks */,
-				9755769C269A0CCF00938915 /* VSCRatchet.xcframework in Frameworks */,
-				9755769A269A0CCF00938915 /* VSCPythia.xcframework in Frameworks */,
+				9736A20A269B056D00148A72 /* VSCRatchet.xcframework in Frameworks */,
+				9736A203269B056A00148A72 /* VSCCommon.xcframework in Frameworks */,
+				9736A206269B056B00148A72 /* VSCFoundation.xcframework in Frameworks */,
+				9736A208269B056C00148A72 /* VSCPythia.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +69,10 @@
 		9755767E269A0B4B00938915 = {
 			isa = PBXGroup;
 			children = (
+				9736A1FE269B056500148A72 /* VSCCommon.xcframework */,
+				9736A1FC269B056300148A72 /* VSCFoundation.xcframework */,
+				9736A1FD269B056400148A72 /* VSCPythia.xcframework */,
+				9736A1FB269B055E00148A72 /* VSCRatchet.xcframework */,
 				9755768A269A0B4B00938915 /* TestWrapper */,
 				97557689269A0B4B00938915 /* Products */,
 				97557693269A0CCF00938915 /* Frameworks */,
@@ -122,7 +130,7 @@
 				97557684269A0B4B00938915 /* Sources */,
 				97557685269A0B4B00938915 /* Frameworks */,
 				97557686269A0B4B00938915 /* Resources */,
-				975576A0269A0CCF00938915 /* Embed Frameworks */,
+				9736A205269B056A00148A72 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
