@@ -3,44 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9736A203269B056A00148A72 /* VSCCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9736A1FE269B056500148A72 /* VSCCommon.xcframework */; };
-		9736A204269B056A00148A72 /* VSCCommon.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9736A1FE269B056500148A72 /* VSCCommon.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9736A206269B056B00148A72 /* VSCFoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9736A1FC269B056300148A72 /* VSCFoundation.xcframework */; };
-		9736A207269B056B00148A72 /* VSCFoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9736A1FC269B056300148A72 /* VSCFoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9736A208269B056C00148A72 /* VSCPythia.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9736A1FD269B056400148A72 /* VSCPythia.xcframework */; };
-		9736A209269B056C00148A72 /* VSCPythia.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9736A1FD269B056400148A72 /* VSCPythia.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9736A20A269B056D00148A72 /* VSCRatchet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9736A1FB269B055E00148A72 /* VSCRatchet.xcframework */; };
-		9736A20B269B056D00148A72 /* VSCRatchet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9736A1FB269B055E00148A72 /* VSCRatchet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9755768D269A0B4B00938915 /* TestWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9755768B269A0B4B00938915 /* TestWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		975576A2269A0CF600938915 /* TestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975576A1269A0CF600938915 /* TestService.swift */; };
+		97C6C027269B1C490038F933 /* VSCCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C6C026269B1C490038F933 /* VSCCommon.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		9736A205269B056A00148A72 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				9736A20B269B056D00148A72 /* VSCRatchet.xcframework in Embed Frameworks */,
-				9736A204269B056A00148A72 /* VSCCommon.xcframework in Embed Frameworks */,
-				9736A207269B056B00148A72 /* VSCFoundation.xcframework in Embed Frameworks */,
-				9736A209269B056C00148A72 /* VSCPythia.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		9736A1FB269B055E00148A72 /* VSCRatchet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = VSCRatchet.xcframework; sourceTree = "<group>"; };
-		9736A1FC269B056300148A72 /* VSCFoundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = VSCFoundation.xcframework; sourceTree = "<group>"; };
-		9736A1FD269B056400148A72 /* VSCPythia.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = VSCPythia.xcframework; sourceTree = "<group>"; };
-		9736A1FE269B056500148A72 /* VSCCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = VSCCommon.xcframework; sourceTree = "<group>"; };
 		97557688269A0B4B00938915 /* TestWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9755768B269A0B4B00938915 /* TestWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestWrapper.h; sourceTree = "<group>"; };
 		9755768C269A0B4B00938915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +21,7 @@
 		97557696269A0CCF00938915 /* VSCRatchet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VSCRatchet.xcframework; path = Carthage/Build/VSCRatchet.xcframework; sourceTree = "<group>"; };
 		97557697269A0CCF00938915 /* VSCCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VSCCommon.xcframework; path = Carthage/Build/VSCCommon.xcframework; sourceTree = "<group>"; };
 		975576A1269A0CF600938915 /* TestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestService.swift; sourceTree = "<group>"; };
+		97C6C026269B1C490038F933 /* VSCCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VSCCommon.framework; path = Carthage/Build/iOS/VSCCommon.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9736A20A269B056D00148A72 /* VSCRatchet.xcframework in Frameworks */,
-				9736A203269B056A00148A72 /* VSCCommon.xcframework in Frameworks */,
-				9736A206269B056B00148A72 /* VSCFoundation.xcframework in Frameworks */,
-				9736A208269B056C00148A72 /* VSCPythia.xcframework in Frameworks */,
+				97C6C027269B1C490038F933 /* VSCCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,10 +39,6 @@
 		9755767E269A0B4B00938915 = {
 			isa = PBXGroup;
 			children = (
-				9736A1FE269B056500148A72 /* VSCCommon.xcframework */,
-				9736A1FC269B056300148A72 /* VSCFoundation.xcframework */,
-				9736A1FD269B056400148A72 /* VSCPythia.xcframework */,
-				9736A1FB269B055E00148A72 /* VSCRatchet.xcframework */,
 				9755768A269A0B4B00938915 /* TestWrapper */,
 				97557689269A0B4B00938915 /* Products */,
 				97557693269A0CCF00938915 /* Frameworks */,
@@ -100,6 +66,7 @@
 		97557693269A0CCF00938915 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				97C6C026269B1C490038F933 /* VSCCommon.framework */,
 				97557697269A0CCF00938915 /* VSCCommon.xcframework */,
 				97557694269A0CCF00938915 /* VSCFoundation.xcframework */,
 				97557695269A0CCF00938915 /* VSCPythia.xcframework */,
@@ -130,7 +97,6 @@
 				97557684269A0B4B00938915 /* Sources */,
 				97557685269A0B4B00938915 /* Frameworks */,
 				97557686269A0B4B00938915 /* Resources */,
-				9736A205269B056A00148A72 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -328,6 +294,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/VSCCommon.xcframework/ios-arm64_armv7_armv7s",
+					"$(PROJECT_DIR)/Carthage/Build/VSCCommon.xcframework/ios-arm64_i386_x86_64-simulator",
+				);
 				INFOPLIST_FILE = TestWrapper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -337,7 +309,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.2;
+				MARKETING_VERSION = 0.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestWrapper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -358,6 +330,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/VSCCommon.xcframework/ios-arm64_armv7_armv7s",
+					"$(PROJECT_DIR)/Carthage/Build/VSCCommon.xcframework/ios-arm64_i386_x86_64-simulator",
+				);
 				INFOPLIST_FILE = TestWrapper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -367,7 +345,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.2;
+				MARKETING_VERSION = 0.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestWrapper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
