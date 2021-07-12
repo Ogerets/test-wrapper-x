@@ -10,31 +10,10 @@
 		9755768D269A0B4B00938915 /* TestWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9755768B269A0B4B00938915 /* TestWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		975576A2269A0CF600938915 /* TestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975576A1269A0CF600938915 /* TestService.swift */; };
 		97C6C03B269B33160038F933 /* VSCCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97557697269A0CCF00938915 /* VSCCommon.xcframework */; };
-		97C6C03C269B33160038F933 /* VSCCommon.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97557697269A0CCF00938915 /* VSCCommon.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		97C6C03D269B33160038F933 /* VSCFoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97557694269A0CCF00938915 /* VSCFoundation.xcframework */; };
-		97C6C03E269B33160038F933 /* VSCFoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97557694269A0CCF00938915 /* VSCFoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		97C6C03F269B33160038F933 /* VSCPythia.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97557695269A0CCF00938915 /* VSCPythia.xcframework */; };
-		97C6C040269B33160038F933 /* VSCPythia.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97557695269A0CCF00938915 /* VSCPythia.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		97C6C041269B33160038F933 /* VSCRatchet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97557696269A0CCF00938915 /* VSCRatchet.xcframework */; };
-		97C6C042269B33160038F933 /* VSCRatchet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97557696269A0CCF00938915 /* VSCRatchet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		97C6C043269B33160038F933 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				97C6C042269B33160038F933 /* VSCRatchet.xcframework in Embed Frameworks */,
-				97C6C03C269B33160038F933 /* VSCCommon.xcframework in Embed Frameworks */,
-				97C6C03E269B33160038F933 /* VSCFoundation.xcframework in Embed Frameworks */,
-				97C6C040269B33160038F933 /* VSCPythia.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		97557688269A0B4B00938915 /* TestWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +25,6 @@
 		97557697269A0CCF00938915 /* VSCCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VSCCommon.xcframework; path = Carthage/Build/VSCCommon.xcframework; sourceTree = "<group>"; };
 		975576A1269A0CF600938915 /* TestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestService.swift; sourceTree = "<group>"; };
 		97C6C026269B1C490038F933 /* VSCCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VSCCommon.framework; path = Carthage/Build/iOS/VSCCommon.framework; sourceTree = "<group>"; };
-		97C6C03A269B32A60038F933 /* TestWrapper copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestWrapper copy-Info.plist"; path = "/Users/evgenypyvovarov/Documents/Projects/test-wrapper-x/TestWrapper copy-Info.plist"; sourceTree = "<absolute>"; };
 		97C6C047269B33350038F933 /* VSCFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VSCFoundation.framework; path = Carthage/Build/iOS/VSCFoundation.framework; sourceTree = "<group>"; };
 		97C6C048269B33350038F933 /* VSCRatchet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VSCRatchet.framework; path = Carthage/Build/iOS/VSCRatchet.framework; sourceTree = "<group>"; };
 		97C6C049269B33350038F933 /* VSCPythia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VSCPythia.framework; path = Carthage/Build/iOS/VSCPythia.framework; sourceTree = "<group>"; };
@@ -73,7 +51,6 @@
 				9755768A269A0B4B00938915 /* TestWrapper */,
 				97557689269A0B4B00938915 /* Products */,
 				97557693269A0CCF00938915 /* Frameworks */,
-				97C6C03A269B32A60038F933 /* TestWrapper copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,7 +109,6 @@
 				97557684269A0B4B00938915 /* Sources */,
 				97557685269A0B4B00938915 /* Frameworks */,
 				97557686269A0B4B00938915 /* Resources */,
-				97C6C043269B33160038F933 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -341,7 +317,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.3;
+				MARKETING_VERSION = 0.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestWrapper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -373,7 +349,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.3;
+				MARKETING_VERSION = 0.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestWrapper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
